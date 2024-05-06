@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\zewail\\renewable\\year 4 spring\\database\\project\\project_Database\\project_Database\\project_Database.csproj": {}
+    "C:\\Users\\ahmed\\Documents\\GitHub\\database_spring24\\project_Database\\project_Database.csproj": {}
   },
   "projects": {
-    "D:\\zewail\\renewable\\year 4 spring\\database\\project\\project_Database\\project_Database\\project_Database.csproj": {
+    "C:\\Users\\ahmed\\Documents\\GitHub\\database_spring24\\project_Database\\project_Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\zewail\\renewable\\year 4 spring\\database\\project\\project_Database\\project_Database\\project_Database.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed\\Documents\\GitHub\\database_spring24\\project_Database\\project_Database.csproj",
         "projectName": "project_Database",
-        "projectPath": "D:\\zewail\\renewable\\year 4 spring\\database\\project\\project_Database\\project_Database\\project_Database.csproj",
-        "packagesPath": "C:\\Users\\Hassan mohamed\\.nuget\\packages\\",
-        "outputPath": "D:\\zewail\\renewable\\year 4 spring\\database\\project\\project_Database\\project_Database\\obj\\",
+        "projectPath": "C:\\Users\\ahmed\\Documents\\GitHub\\database_spring24\\project_Database\\project_Database.csproj",
+        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed\\Documents\\GitHub\\database_spring24\\project_Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hassan mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,22 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -59,15 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

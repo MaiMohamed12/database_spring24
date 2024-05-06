@@ -7,6 +7,7 @@ using System.Data;
 
 namespace project_Database.Pages
 {
+    //test commit
     public class IndexModel : PageModel
     {
         [BindProperty]
